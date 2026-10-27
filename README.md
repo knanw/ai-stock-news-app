@@ -1,8 +1,6 @@
-# Trader News Pulse — AI Stock News Summary
+# AI Stock News App
 
 A full-stack app that turns recent stock news into a concise briefing with an executive summary, key takeaways, and headline summaries.
-
-> **Hinweis:** Die Zusammenfassung dient ausschließlich der Information und ist keine Anlageberatung. Wenn Yahoo Finance keine News liefert oder nicht erreichbar ist, verwendet das Backend derzeit gekennzeichnete Beispiel-/Fallback-Schlagzeilen. Prüfe deshalb vor einer Nutzung für Entscheidungen immer die Originalquellen.
 
 ## Tech Stack
 
