@@ -150,8 +150,8 @@ flowchart TD
     News -->|"Headlines or fallback data"| API
 
     API --> AI["AI Analysis Service"]
-    AI --> Cache[("In-memory cache, 10-minute TTL")]
-    AI -->|"OpenAI-compatible SDK"| LLM["OpenAI or compatible provider<br/>(e.g. Groq)"]
+    AI --> Cache["In-memory cache - 10-min TTL"]
+    AI -->|"OpenAI-compatible SDK"| LLM["OpenAI or compatible provider - Groq"]
 
     LLM --> AI
     AI --> API
